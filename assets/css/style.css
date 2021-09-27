@@ -1,0 +1,204 @@
+body {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body *{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 3.75em; /* ahora 1em = 60px */
+    margin-bottom: 0.25em;
+}
+
+.subtitulo, h4, h5 {
+    font-weight: 400;    
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.8125em; /* 45 pixeles = 1em */
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+.oscuro {
+    background: #000f08;
+    color:#ffffff;
+}
+
+.oscuro a {
+    color: ffffff;
+    text-decoration: none;
+}
+
+.sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    padding: 50px;
+    white-space: nowrap;
+}
+
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26.375em;
+    color: #ffffff;
+    text-shadow: 0em 0.1875em 0.375em #707070;
+    padding: 6.125rem 3.125rem;
+    
+}
+
+section, footer {
+    margin-top: 75px;
+}
+
+footer {
+    padding: 50px;
+}
+
+.charla-texto, .evento {
+    display: inline-block;
+}
+
+.centrado {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.charla-texto {
+    width: 70%;
+    vertical-align: middle;
+    margin-left: 5%;
+    white-space: normal;
+}
+
+.charla-speaker {
+    width: 25%;
+    vertical-align: middle;
+}
+
+.evento {
+    width: 30%;
+}
+
+.evento a {
+    text-decoration: none;
+}
+
+.evento a:visited {
+    color: #000f08;
+}
+
+.evento-imagen {
+    width: 70%;
+    white-space: nowrap;
+}
+
+#ubicacion h2 {
+    margin: 1em auto;
+}
+
+#ubicacion img {
+    vertical-align: middle;
+}
+
+#eventos h2 {
+    margin-bottom: 1.6666666666666667em;
+
+}
+
+#eventos h3 {
+    margin-top: 1em;
+}
+
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+nav a:visited {
+    color: #ffffff
+}
+
+.icono {
+    width: 2rem;
+}
+
+.icono svg {
+    fill: #ffffff;
+}
+
+#contactos i {
+    font-size: 4.375em;
+    width: 1em;
+    margin-bottom: 1rem;
+    fill: #ffffff;
+}
+
+#contactos a:visited {
+    color: #ffffff;
+}
+
+/* Estilos Simposio VeganDB*/
+
+.header-titulo, .primer-texto-simposio, .segundo-texto-simposio {
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.titulo-vegandb {
+    padding-top: 196px;
+    text-align: left;
+    font-size: 2.8125rem;
+    margin-bottom: 4.5625rem;
+    font-weight: 700;
+}
+
+.gregorio {
+    text-align: left;
+    font-size: 2.8125rem;
+    margin-bottom: 4.5625rem;
+    font-weight: 700;
+}
+
+.primer-texto-simposio p, .segundo-texto-simposio p {
+    text-align: left;
+    font-size: 1.5625rem;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.5px;
+    margin-top: 34px;
+}
